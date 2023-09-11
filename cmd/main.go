@@ -1,5 +1,6 @@
 package main
 
+import "github.com/senyc/webscrape/pkg/jobwebscrape"
 func main() {
-	return
+	jobwebscrape.SearchJobBoard()
 }
